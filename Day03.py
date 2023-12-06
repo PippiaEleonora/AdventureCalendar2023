@@ -1,5 +1,5 @@
 import re
-with open('input3.txt') as f:
+with open('input03.txt') as f:
     arrayRaw = f.readlines()
     
 n = len(arrayRaw)
