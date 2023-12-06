@@ -1,6 +1,6 @@
 import re
 import math
-with open('input1.txt') as f:
+with open('input01.txt') as f:
     arrayRaw = f.readlines()
 coordinates = [ re.findall('[0-9]', x) for x in arrayRaw]
 realcoodinates = [ int(coo[0]+coo[-1]) for coo in coordinates]
