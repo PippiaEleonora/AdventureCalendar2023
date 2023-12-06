@@ -1,5 +1,5 @@
 import re
-with open('input2.txt') as f:
+with open('input02.txt') as f:
     arrayRaw = f.readlines()
 BlueBlocks = [ re.findall('([0-9]+) (blue)', x) for x in arrayRaw]
 BlueBlocks = [[int(b[0]) for b in bLine] for bLine in BlueBlocks]
